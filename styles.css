@@ -1,0 +1,86 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #2e2c34;
+    font-family: "Exo 2 Black";
+}
+
+section {
+
+    position: relative;
+    width: 500px;
+    height: 700px;
+    border: 0px solid deeppink;
+    margin-right: 200px;
+    perspective:800px ;
+
+}
+
+
+
+
+.polotno {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    box-shadow: 0 -5px 10px rgba(218, 181, 181, 0.9) , 0px 5px 10px rgba(218, 181, 181, 0.5)  ,
+    0px -15px 10px rgba(218, 181, 181, 0.9)    ;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 700px;
+    background-color: orange;
+    transition: transform 0.3s;
+
+
+
+}
+
+
+#app {
+    display: flex;
+
+    margin-right: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.roxie {
+    display: flex;
+    background-color: brown;
+
+    height: 98%;
+    margin-top: -5%;
+
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+
+}
+
+.plashka {
+
+    height: 28px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1em;
+    text-align: center;
+
+}
